@@ -2,14 +2,15 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(ThemeManager.self) private var themeManager
-    @State private var backgroundRefreshEnabled = true
-    @State private var healthRemindersEnabled = false
 
     var body: some View {
         Form {
             Section("数据") {
-                Toggle("后台刷新", isOn: $backgroundRefreshEnabled)
-                Toggle("健康提醒", isOn: $healthRemindersEnabled)
+                NavigationLink {
+                    HealthDataView()
+                } label: {
+                    Label("Apple 健康数据", systemImage: "heart.text.square")
+                }
             }
 
             Section("隐私") {
@@ -39,5 +40,6 @@ struct SettingsView: View {
         SettingsView()
     }
     .environment(ThemeManager())
+    .environment(HealthKitManager())
     .preferredColorScheme(.dark)
 }

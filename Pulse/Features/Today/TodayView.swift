@@ -50,6 +50,10 @@ struct TodayView: View {
                 Text(snapshot.date.pulseDateText)
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(themeManager.currentTheme.secondaryTextColor)
+
+                Text("演示数据")
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(themeManager.currentTheme.accentColor)
             }
 
             Spacer()
@@ -119,5 +123,6 @@ private extension Date {
 #Preview {
     TodayView(snapshot: MockHealthData.today)
         .environment(ThemeManager())
+        .environment(HealthKitManager())
         .preferredColorScheme(.dark)
 }

@@ -114,5 +114,6 @@ struct ProfileView: View {
 #Preview {
     ProfileView()
         .environment(ThemeManager())
+        .environment(HealthKitManager())
         .preferredColorScheme(.dark)
 }

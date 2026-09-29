@@ -37,6 +37,10 @@ struct SleepView: View {
             Text("昨晚 · 23:16 至 06:52")
                 .font(.subheadline)
                 .foregroundStyle(themeManager.currentTheme.secondaryTextColor)
+
+            Text("演示数据")
+                .font(.caption2.weight(.semibold))
+                .foregroundStyle(themeManager.currentTheme.accentColor)
         }
     }
 

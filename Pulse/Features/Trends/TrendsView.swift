@@ -14,6 +14,10 @@ struct TrendsView: View {
                     Text("趋势")
                         .font(.system(size: 32, weight: .bold, design: .rounded))
 
+                    Text("演示数据")
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(themeManager.currentTheme.accentColor)
+
                     rangePicker
                     recoveryChart
                     summaryGrid

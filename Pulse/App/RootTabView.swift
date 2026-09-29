@@ -37,5 +37,6 @@ struct RootTabView: View {
 #Preview {
     RootTabView()
         .environment(ThemeManager())
+        .environment(HealthKitManager())
         .preferredColorScheme(.dark)
 }
