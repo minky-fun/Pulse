@@ -1,0 +1,23 @@
+{
+  "id": "BC282504-64C1-4298-9FCD-F196289FB24B",
+  "version": 1,
+  "name": "Ocean",
+  "author": "Minky",
+  "background": {
+    "type": "gradient",
+    "start": "#07131D",
+    "end": "#0A3444"
+  },
+  "primaryText": "#F4FCFF",
+  "secondaryText": "#ADD8E6",
+  "accentStart": "#44C7F4",
+  "accentEnd": "#5BE7C4",
+  "card": {
+    "radius": 20,
+    "opacity": 0.74,
+    "borderOpacity": 0.12
+  },
+  "recoveryStyle": "ring",
+  "hrvStyle": "wave",
+  "watchLayout": "health"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "58A64B9E-ED2A-4AE8-BC7A-7287DFD4D168",
+  "version": 1,
+  "name": "Pulse Dark",
+  "author": "Minky",
+  "background": {
+    "type": "gradient",
+    "start": "#080B10",
+    "end": "#101722"
+  },
+  "primaryText": "#F7FAFC",
+  "secondaryText": "#8E9AAA",
+  "accentStart": "#4EA8FF",
+  "accentEnd": "#43E1B5",
+  "card": {
+    "radius": 22,
+    "opacity": 0.82,
+    "borderOpacity": 0.09
+  },
+  "recoveryStyle": "ring",
+  "hrvStyle": "wave",
+  "watchLayout": "health"
+}

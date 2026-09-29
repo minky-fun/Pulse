@@ -1,0 +1,23 @@
+{
+  "id": "ACFC343E-C891-45B7-B3C5-3EB48C3379A8",
+  "version": 1,
+  "name": "Forest",
+  "author": "Minky",
+  "background": {
+    "type": "gradient",
+    "start": "#08110D",
+    "end": "#153126"
+  },
+  "primaryText": "#F4FBF6",
+  "secondaryText": "#A8C7B4",
+  "accentStart": "#6DDB9B",
+  "accentEnd": "#D2E875",
+  "card": {
+    "radius": 22,
+    "opacity": 0.78,
+    "borderOpacity": 0.10
+  },
+  "recoveryStyle": "ring",
+  "hrvStyle": "wave",
+  "watchLayout": "health"
+}
